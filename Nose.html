@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree de LadyPink2811</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #ffccff, #ffffff); /* Gradiente de rosa a blanco */
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            max-width: 600px;
+            width: 90%;
+            text-align: center;
+        }
+        .header {
+            background-color: #87ceeb; /* Azul cielo */
+            color: #fff;
+            padding: 20px 0;
+            border-radius: 12px 12px 0 0;
+            margin-bottom: 20px;
+        }
+        .profile-img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 10px;
+            background-color: #f5f5f5; /* Color de fondo detrás de la foto */
+        }
+        .profile-name {
+            font-family: 'Pacifico', cursive; /* Cambio de fuente a Pacifico */
+            font-size: 2em; /* Tamaño del nombre */
+            margin-bottom: 10px;
+            color: #f4c2c2; /* Rosa carne */
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            text-align: center;
+            padding: 10px;
+        }
+        .link-item {
+            background-color: #fff;
+            border: 2px solid #e0e0e0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 -2px 6px rgba(0, 0, 0, 0.1); /* Sombra en la parte inferior */
+            overflow: hidden; /* Ocultar el contenido que se desborda del borde redondeado */
+            position: relative; /* Necesario para el efecto hover */
+            transition: transform 0.2s ease;
+        }
+        .link-item a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 1.2em; /* Tamaño del texto de los enlaces */
+            display: block; /* Hacer el enlace ocupar todo el espacio del .link-item */
+        }
+        .link-item:hover {
+            transform: translateY(3px); /* Efecto de "bajar" al hacer hover */
+        }
+        .link-item a:hover {
+            color: #ff007f;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 1em; /* Tamaño del texto del pie de página */
+            color: #666;
+            background-color: #ff007f; /* Rosa fucsia */
+            background-image: linear-gradient(45deg, #ff007f, #800080); /* Lila fuerte */
+            padding: 15px;
+            border-radius: 0 0 8px 8px;
+        }
+        footer p {
+            margin: 0;
+            color: #fff; /* Color del texto */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img class="profile-img" src="https://ugc.production.linktr.ee/9c4071a8-1840-408f-b4a8-52c5eb8b1416_IMG-6733.jpeg?io=true&size=avatar-v3_0" alt="Foto de perfil">
+            <div class="profile-name">LadyPink2811</div>
+        </div>
+        <div class="links">
+            <div class="link-item">
+                <a href="https://www.farmasi.es/jessygm" target="_blank">Compra en mi web</a>
+            </div>
+            <div class="link-item">
+                <a href="https://www.farmasi.es/jessygm/register/beautyinfluencer" target="_blank">Únete a mi equipo</a>
+            </div>
+            <!-- Añade más enlaces según necesites -->
+        </div>
+        <footer>
+            <p>&copy; 2024 LadyPink2811</p>
+        </footer>
+    </div>
+</body>
+</html>
